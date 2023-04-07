@@ -19,6 +19,11 @@
                   "magasin": "Conforama",
                   "prix": "500",
                   "modele": "LPISS"
+              },
+              {
+                  "magasin": "PEVEX",
+                  "prix": "500",
+                  "modele": "LPISS"
               }
           ]
       },
@@ -41,6 +46,11 @@
                   "magasin": "Conforama",
                   "prix": "100",
                   "modele": "LPqsISS"
+              },
+              {
+                  "magasin": "PEVEX",
+                  "prix": "500",
+                  "modele": "LPISS"
               }
           ]
       }
