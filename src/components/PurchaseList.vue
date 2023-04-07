@@ -7,7 +7,9 @@
 					<th>Item Name</th>
 					<th>Description</th>
 					<th>Tags</th>
-					<th>Prices</th>
+					<th>Prices 01</th>
+					<th>Prices 02</th>
+					<th>Prices 03</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -15,12 +17,18 @@
 					<td>{{ item.libelle }}</td>
 					<td>{{ item.description }}</td>
 					<td>{{ item.tags.join(', ') }}</td>
-					<td>
-						<ul class="list-unstyled">
-							<li v-for="price in item.prix">
-								{{ price.magasin }}: {{ price.prix }} ({{ price.modele }})
-							</li>
-						</ul>
+					<td v-for="price in item.prix">
+						<template v-if="price.magasin === 'IKEA'">
+														
+							{{ price.magasin }}: {{ price.prix }} ({{ price.modele }})
+						</template>
+						<template v-if="price.magasin === 'Conforama'">
+														
+							{{ price.magasin }}: {{ price.prix }} ({{ price.modele }})
+						</template>
+						<template v-if="price.magasin === 'PEVEX'">														
+							{{ price.magasin }}: {{ price.prix }} ({{ price.modele }})
+						</template>
 					</td>
 				</tr>
 			</tbody>
