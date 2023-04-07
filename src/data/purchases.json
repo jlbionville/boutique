@@ -1,10 +1,47 @@
-[
-  {
-    "id": 1,
-    "name": "Shirt"
-  },
-  {
-    "id": 2,
-    "name": "Pants"
-  }
-]
+
+  [
+      {
+          "libelle": "lit",
+          "description": "couchage",
+          "tags":
+          [
+              "couchage",
+              "chambre"
+          ],
+          "prix":
+          [
+              {
+                  "magasin": "IKEA",
+                  "prix": "500",
+                  "modele": "KLUP"
+              },
+              {
+                  "magasin": "Conforama",
+                  "prix": "500",
+                  "modele": "LPISS"
+              }
+          ]
+      },
+      {
+          "libelle": "commode",
+          "description": "meublde de rangement",
+          "tags":
+          [
+              "commode",
+              "chambre"
+          ],
+          "prix":
+          [
+              {
+                  "magasin": "IKEA",
+                  "prix": "500",
+                  "modele": "KdLUP"
+              },
+              {
+                  "magasin": "Conforama",
+                  "prix": "100",
+                  "modele": "LPqsISS"
+              }
+          ]
+      }
+  ]
