@@ -5,7 +5,7 @@
   </template>
   
   <script>
-  import PurchaseList from '../components/PurchaseList.vue';
+  import PurchaseList from '@/components/PurchaseList.vue';
   
   export default {
     components: {

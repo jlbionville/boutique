@@ -10,7 +10,7 @@
   </template>
   
   <script>
-  import purchasesData from '../data/purchases.json';
+  import purchasesData from '@/data/purchases.json';
   
   export default {
     data() {

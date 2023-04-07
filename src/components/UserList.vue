@@ -10,16 +10,12 @@
   </template>
   
   <script>
-  import usersData from '../data/users.json';
+  import usersData from '@/data/users.json';
   
   export default {
     data() {
       return {
-        users: [
-        { id: 1, name: 'Alice' },
-        { id: 2, name: 'Bob' },
-        { id: 3, name: 'Charlie' }
-      ]
+        users: usersData
       }
     }
   }
