@@ -2,6 +2,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import UserListView from '../views/UserListView.vue';
 import PurchaseListView from '../views/PurchaseListView.vue';
+import BookListView from '../views/BookListView.vue';
 
 Vue.use(VueRouter)
 
@@ -19,6 +20,11 @@ const routes = [
     path: '/purchases',
     name: 'PurchaseList',
     component: PurchaseListView
+  },
+  {
+    path: '/books',
+    name: 'BookList',
+    component: BookListView
   }
 ]
 
